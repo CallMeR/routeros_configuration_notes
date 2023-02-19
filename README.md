@@ -3,7 +3,7 @@
 ## 介绍
 RouterOS 路由器的安装以及折腾手记。
 
-- RouterOS 适用版本：7.5 Stable
+- RouterOS 适用版本：7.7 Stable
 
 - 演示机：
     - 虚拟化：Proxmox VE
@@ -22,7 +22,6 @@ RouterOS 路由器的安装以及折腾手记。
         - 分配方式：SLAAC
         - 前缀：fc00::/64
         - IP 地址：fc00::1
-        - 网关：fc00::1
         - DNS：fc00::2, fc00::3
 
 - 外网连接方式：PPPoE
@@ -41,6 +40,9 @@ RouterOS 路由器的安装以及折腾手记。
 8.  [使用附加硬盘记录系统日志](./8.使用附加硬盘记录系统日志.md)
 9.  [RouterOS配置IPv6](./9.RouterOS配置IPv6.md)
 
+### 附录
+
+A.  [RouterOS命令行配置脚本.md](./A.RouterOS命令行配置脚本.md)  
 
 ### 文章说明
 
