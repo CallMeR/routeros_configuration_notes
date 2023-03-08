@@ -20,9 +20,9 @@ RouterOS 路由器的安装以及折腾手记。
         - DNS：172.16.1.2, 172.16.1.3
     - IPv6 网络
         - 分配方式：SLAAC
-        - 前缀：fc00::/64
-        - IP 地址：fc00::1
-        - DNS：fc00::2, fc00::3
+        - 前缀：fdac::/64
+        - IP 地址：fdac::1
+        - DNS：fdac::2, fdac::3
 
 - 外网连接方式：PPPoE
 
