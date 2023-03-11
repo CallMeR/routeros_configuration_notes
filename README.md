@@ -3,7 +3,7 @@
 ## 介绍
 RouterOS 路由器的安装以及折腾手记。
 
-- RouterOS 适用版本：7.7 Stable
+- RouterOS 适用版本：7.8 Stable
 
 - 演示机：
     - 虚拟化：Proxmox VE
