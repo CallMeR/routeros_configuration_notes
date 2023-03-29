@@ -5,26 +5,30 @@ RouterOS 路由器的安装以及折腾手记。
 
 - RouterOS 适用版本：7.8 Stable
 
+
 - 演示机：
     - 虚拟化：Proxmox VE
     - CPU：host
     - 内存：2GB
     - 网卡：VirtIO
-    - 磁盘：VirtIO SCSI Single
+    - SCSI控制器：VirtIO SCSI Single
+
+- 外部网络：
+    - 光猫：桥接模式
+    - RouterOS：`PPPoE`
 
 - 内部网络：
     - IPv4 网络
-        - IP 地址：172.16.1.1
-        - 子网掩码：255.255.255.0
-        - 网关：172.16.1.1
-        - DNS：172.16.1.2, 172.16.1.3
+        - IP 地址：`172.16.1.1`
+        - 子网掩码：`255.255.255.0` ( 即 `/24` )
+        - 网关：`172.16.1.1`
+        - 内网 DNS：`172.16.1.2` , `172.16.1.3`
     - IPv6 网络
-        - 分配方式：SLAAC
-        - 前缀：fdac::/64
-        - IP 地址：fdac::1
-        - DNS：fdac::2, fdac::3
-
-- 外网连接方式：PPPoE
+        - 分配方式：`SLAAC`
+        - GUA 前缀：`Prefix Delegation`
+        - ULA 前缀：`fdac::/64`
+        - ULA 地址：`fdac::1`
+        - 内网 DNS：`fdac::2` , `fdac::3`
 
 
 ### 系列章节
