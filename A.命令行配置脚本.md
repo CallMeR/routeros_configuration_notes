@@ -31,10 +31,11 @@
 ||[ros_firewall_ipv6_pppoe_dns.conf](./src/firewall/ros_firewall_ipv6_pppoe_dns.conf)|IPv6 高级防火墙脚本，内网 DNS 服务器|CHR / 官方硬件|
 ||[ros_firewall_ipv6_pppoe_simple.conf](./src/firewall/ros_firewall_ipv6_pppoe_simple.conf)|IPv6 精简防火墙脚本|CHR / 官方硬件|
 |-|-|-|-|
-|[qos](./src/qos)|[ros_qos_cake.conf](./src/qos/ros_qos_cake.conf)|CAKE 算法的简单队列配置脚本，要求 Fasttrack 关闭|CHR / 官方硬件|
-||[ros_qos_cake_fasttrack.conf](./src/qos/ros_qos_cake_fasttrack.conf)|CAKE 算法的队列树配置脚本，可与 Fasttrack 搭配使用|CHR / 官方硬件|
+|[qos](./src/qos)|[ros_qos_cake.conf](./src/qos/ros_qos_cake.conf)|CAKE 算法的 QoS 配置脚本|CHR / 官方硬件|
+||[ros_qos_fq_codel.conf](./src/qos/ros_qos_fq_codel.conf)|Fq-CoDel 算法的 QoS 配置脚本|CHR / 官方硬件|
 |-|-|-|-|
-|[schedule](./src/schedule)|[ros_schedule_script.conf](./src/schedule/ros_schedule_script.conf)|定时任务配置脚本，定时邮件推送、PPPoE 重播、系统自动升级|CHR / 官方硬件|
+|[schedule](./src/schedule)|[ros_schedule_script_pppoe.conf](./src/schedule/ros_schedule_script_pppoe.conf)|定时任务配置脚本，定时邮件推送、PPPoE 重播、系统自动升级|CHR / 官方硬件|
+||[ros_schedule_script_dhcp.conf](./src/schedule/ros_schedule_script_dhcp.conf)|定时任务配置脚本，定时邮件推送、DHCPv4 重播、系统自动升级|CHR / 官方硬件|
 |-|-|-|-|
 |[email](./src/email)|[ros_email_log_worker.conf](./src/email/ros_email_log_worker.conf)|日志收集邮件 推送脚本|CHR / 官方硬件|
 ||[ros_email_res_worker_chr.conf](./src/email/ros_email_res_worker_chr.conf)|资源状态邮件 推送脚本|CHR|
