@@ -27,9 +27,7 @@ RouterOS 路由器的安装以及折腾手记。
     - IPv6 网络
         - 分配方式：`SLAAC`
         - GUA 前缀：`Prefix Delegation`
-        - ULA 前缀：`fdac::/64`
-        - ULA 地址：`fdac::1`
-        - 内网 DNS：`fdac::2` , `fdac::3`
+        - ULA 前缀：使用 `fdac::/64` 作为演示
 
 
 ### 系列章节
