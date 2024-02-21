@@ -31,6 +31,8 @@
 ||[ros_firewall_ipv6.pppoe.advanced.conf](./src/firewall/ros_firewall_ipv6.pppoe.advanced.conf)|PPPoE 模式，IPv6 高级防火墙|官方硬件 / CHR|
 ||[ros_firewall_ipv6.pppoe.expert.conf](./src/firewall/ros_firewall_ipv6.pppoe.expert.conf)|PPPoE 模式，IPv6 高级防火墙，内网 DNS 服务器，DDoS 防御|官方硬件 / CHR|
 |-|-|-|-|
+|[system](./src/system)|[ros_sys_hardened.conf](./src/system/ros_sys_hardened.conf)|系统安全增强脚本|官方硬件 / CHR|
+|-|-|-|-|
 |[qos](./src/qos)|[ros_qos_cake.conf](./src/qos/ros_qos_cake.conf)|CAKE 算法的 QoS 配置脚本|官方硬件 / CHR|
 ||[ros_qos_fq_codel.conf](./src/qos/ros_qos_fq_codel.conf)|Fq-CoDel 算法的 QoS 配置脚本|官方硬件 / CHR|
 |-|-|-|-|
