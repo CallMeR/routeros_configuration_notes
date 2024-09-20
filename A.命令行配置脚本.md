@@ -46,6 +46,8 @@
 |[upgrade](./src/upgrade)|[ros_sys_upgrade_worker.native.conf](./src/upgrade/ros_sys_upgrade_worker.native.conf)|系统自动更新脚本|官方硬件|
 ||[ros_sys_upgrade_worker.chr.conf](./src/upgrade/ros_sys_upgrade_worker.chr.conf)|系统自动更新脚本|CHR|
 |-|-|-|-|
+|[certificates](./src/certificates)|[ros_certs_update_worker.conf](./src/certificates/ros_certs_update_worker.conf)|根证书自动更新脚本|官方硬件 / CHR|
+|-|-|-|-|
 |[shortcut](./src/shortcut)|[ros_official_init_script.conf](./src/shortcut/ros_official_init_script.conf)|官方硬件自带的初始化脚本，仅供研究|官方硬件|
 ||[ros_shortcut.native.dhcp.basic.conf](./src/shortcut/ros_shortcut.native.dhcp.basic.conf)|官方硬件配置脚本，DHCP 模式，初级防火墙，暂不支持配置 IPv6 |官方硬件|
 ||[ros_shortcut.native.dhcp.advanced.conf](./src/shortcut/ros_shortcut.native.dhcp.advanced.conf)|与前者类似，高级防火墙，Fq-CoDel QoS|官方硬件|
