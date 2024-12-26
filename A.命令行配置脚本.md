@@ -4,9 +4,9 @@
 
 因此我这里整理了一份纯命令行配置 RouterOS CHR 版本的脚本，请查阅文件 [ros_shortcut.chr.pppoe.expert.conf](./src/shortcut/ros_shortcut.chr.pppoe.expert.conf) 。  
 
-对于 RouterOS 官方硬件配置脚本，例如 RB750Gr3 ，请参考文件 [ros_shortcut.native.pppoe.advanced.conf](./src/shortcut/ros_shortcut.native.pppoe.advanced.conf) 。  
+对于 RouterOS 官方硬件配置脚本，例如 E50UG ，请参考文件 [ros_shortcut.native.pppoe.advanced.conf](./src/shortcut/ros_shortcut.native.pppoe.advanced.conf) 。  
 
-同时，基于 RB750Gr3 自带的初始化脚本（初级防火墙版本），请参考文件 [ros_shortcut.native.pppoe.basic.conf](./src/shortcut/ros_shortcut.native.pppoe.basic.conf) 。  
+同时，基于 E50UG 自带的初始化脚本（初级防火墙版本），请参考文件 [ros_shortcut.native.pppoe.basic.conf](./src/shortcut/ros_shortcut.native.pppoe.basic.conf) 。  
 
 脚本包含了配置 RouterOS 的必要内容，其余事项在文件中有额外说明，希望能够减少大家初始化配置 RouterOS 的时间 :) 。  
 
