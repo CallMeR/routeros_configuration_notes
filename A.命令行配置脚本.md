@@ -23,13 +23,13 @@
 ||[ros_blackhole_ipv6.conf](./src/firewall/ros_blackhole_ipv6.conf)|IPv6 黑洞路由脚本|官方硬件 / CHR|
 ||[ros_firewall_ipv4.dhcp.basic.conf](./src/firewall/ros_firewall_ipv4.dhcp.basic.conf)|DHCP 模式，IPv4 初级防火墙|官方硬件 / CHR|
 ||[ros_firewall_ipv4.dhcp.advanced.conf](./src/firewall/ros_firewall_ipv4.dhcp.advanced.conf)|DHCP 模式，IPv4 高级防火墙|官方硬件 / CHR|
-||[ros_firewall_ipv4.dhcp.expert.conf](./src/firewall/ros_firewall_ipv4.dhcp.expert.conf)|DHCP 模式，IPv4 高级防火墙，内网 DNS 服务器，DDoS 防御|官方硬件 / CHR|
+||[ros_firewall_ipv4.dhcp.expert.conf](./src/firewall/ros_firewall_ipv4.dhcp.expert.conf)|DHCP 模式，IPv4 高级防火墙，内网 DNS ，Fasttrack 关闭，DDoS 防御|官方硬件 / CHR|
 ||[ros_firewall_ipv4.pppoe.basic.conf](./src/firewall/ros_firewall_ipv4.pppoe.basic.conf)|PPPoE 模式，IPv4 初级防火墙|官方硬件 / CHR|
-||[ros_firewall_ipv4.pppoe.advanced.conf](./src/firewall/ros_firewall_ipv4.pppoe.advanced.conf)|PPPoE 模式，IPv4 高级防火墙，Fasttrack 关闭|官方硬件 / CHR|
-||[ros_firewall_ipv4.pppoe.expert.conf](./src/firewall/ros_firewall_ipv4.pppoe.expert.conf)|PPPoE 模式，IPv4 高级防火墙，内网 DNS 服务器，DDoS 防御|官方硬件 / CHR|
+||[ros_firewall_ipv4.pppoe.advanced.conf](./src/firewall/ros_firewall_ipv4.pppoe.advanced.conf)|PPPoE 模式，IPv4 高级防火墙|官方硬件 / CHR|
+||[ros_firewall_ipv4.pppoe.expert.conf](./src/firewall/ros_firewall_ipv4.pppoe.expert.conf)|PPPoE 模式，IPv4 高级防火墙，内网 DNS ，Fasttrack 关闭，DDoS 防御|官方硬件 / CHR|
 ||[ros_firewall_ipv6.pppoe.basic.conf](./src/firewall/ros_firewall_ipv6.pppoe.basic.conf)|PPPoE 模式，IPv6 初级防火墙|官方硬件 / CHR|
 ||[ros_firewall_ipv6.pppoe.advanced.conf](./src/firewall/ros_firewall_ipv6.pppoe.advanced.conf)|PPPoE 模式，IPv6 高级防火墙|官方硬件 / CHR|
-||[ros_firewall_ipv6.pppoe.expert.conf](./src/firewall/ros_firewall_ipv6.pppoe.expert.conf)|PPPoE 模式，IPv6 高级防火墙，内网 DNS 服务器，DDoS 防御|官方硬件 / CHR|
+||[ros_firewall_ipv6.pppoe.expert.conf](./src/firewall/ros_firewall_ipv6.pppoe.expert.conf)|PPPoE 模式，IPv6 高级防火墙，内网 DNS ，Fasttrack 关闭，DDoS 防御|官方硬件 / CHR|
 |-|-|-|-|
 |[system](./src/system)|[ros_sys_hardened.conf](./src/system/ros_sys_hardened.conf)|系统安全增强脚本|官方硬件 / CHR|
 |-|-|-|-|
@@ -54,4 +54,4 @@
 ||[ros_shortcut.native.pppoe.basic.conf](./src/shortcut/ros_shortcut.native.pppoe.basic.conf)|官方硬件配置脚本，PPPoE 模式，初级防火墙，支持配置 IPv6 |官方硬件|
 ||[ros_shortcut.native.pppoe.advanced.conf](./src/shortcut/ros_shortcut.native.pppoe.advanced.conf)|与前者类似，高级防火墙，Fq-CoDel QoS|官方硬件|
 ||[ros_shortcut.chr.pppoe.advanced.conf](./src/shortcut/ros_shortcut.chr.pppoe.advanced.conf)| CHR 配置脚本，高级防火墙，CAKE QoS，邮件推送，额外日志存储等|CHR|
-||[ros_shortcut.chr.pppoe.expert.conf](./src/shortcut/ros_shortcut.chr.pppoe.expert.conf)|与前者类似，扩展 IPv6 ULA 地址，内网 DNS 服务器，DDoS 防御等|CHR|
+||[ros_shortcut.chr.pppoe.expert.conf](./src/shortcut/ros_shortcut.chr.pppoe.expert.conf)|与前者类似，扩展 IPv6 ULA ，内网 DNS ，Fasttrack 关闭，DDoS 防御等|CHR|
