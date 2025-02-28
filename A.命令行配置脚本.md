@@ -43,8 +43,7 @@
 ||[ros_email_res_worker.native.conf](./src/email/ros_email_res_worker.native.conf)|资源状态邮件 推送脚本|官方硬件|
 ||[ros_email_res_worker.chr.conf](./src/email/ros_email_res_worker.chr.conf)|资源状态邮件 推送脚本|CHR|
 |-|-|-|-|
-|[upgrade](./src/upgrade)|[ros_sys_upgrade_worker.native.conf](./src/upgrade/ros_sys_upgrade_worker.native.conf)|系统自动更新脚本|官方硬件|
-||[ros_sys_upgrade_worker.chr.conf](./src/upgrade/ros_sys_upgrade_worker.chr.conf)|系统自动更新脚本|CHR|
+|[upgrade](./src/upgrade)|[ros_sys_upgrade_worker.conf](./src/upgrade/ros_sys_upgrade_worker.conf)|系统自动更新脚本|官方硬件 / CHR|
 |-|-|-|-|
 |[certificates](./src/certificates)|[ros_certs_update_worker.conf](./src/certificates/ros_certs_update_worker.conf)|根证书自动更新脚本|官方硬件 / CHR|
 |-|-|-|-|
