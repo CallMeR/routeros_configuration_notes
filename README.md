@@ -4,7 +4,7 @@
 
 RouterOS 路由器的安装以及折腾手记。
 
-- RouterOS 适用版本：7.18 Stable
+- RouterOS 适用版本：7.19 Stable
 
 
 - 演示机：
