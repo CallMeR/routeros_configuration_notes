@@ -4,7 +4,7 @@
 
 RouterOS 路由器的安装以及折腾手记。
 
-- RouterOS 适用版本：7.21.5 LongTerm
+- RouterOS 适用版本：7.24.6 LongTerm
 
 
 - 演示机：
